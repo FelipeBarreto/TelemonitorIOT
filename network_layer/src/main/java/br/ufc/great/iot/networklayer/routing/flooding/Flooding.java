@@ -14,7 +14,7 @@ import br.ufc.great.iot.networklayer.routing.message.RoutingMessage;
 
 public class Flooding extends IRouter {
 
-	private static final int DEFAULT_TTL = 3;
+	private static final int DEFAULT_TTL = 1;
 	
 	
 	private int sequenceNumber;
